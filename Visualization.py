@@ -2,9 +2,9 @@ import matplotlib
 import pandas as pd
 import numpy as np
 
-url1 = 'https://raw.githubusercontent.com/aman-2k18/AI_Project/main/hillClimbing_resultData.txt?token=ANPGBX2QKV4MVEX6Y2RV6YC7W2K7I'
-url2 = 'https://raw.githubusercontent.com/aman-2k18/AI_Project/main/randomRestart_resultData.txt?token=ANPGBX6G3DYHBYWDW5YJX627W7ZM4'
-url3 = 'https://raw.githubusercontent.com/aman-2k18/AI_Project/main/simulatedAnnealing_resultData.txt?token=ANPGBXYUBTGSVH6PCGLGH7K7W7ZOQ'
+url1 = 'https://raw.githubusercontent.com/aman-2k18/AI_Project/main/hillClimbing_resultData.txt?token=ANPGBX35LUE2KL3E2Q2XDPS7YJX72'
+url2 = 'https://raw.githubusercontent.com/aman-2k18/AI_Project/main/randomRestart_resultData.txt?token=ANPGBX3VDLKQU2EYT7TOSA27YJYA4'
+url3 = 'https://raw.githubusercontent.com/aman-2k18/AI_Project/main/simulatedAnnealing_resultData.txt?token=ANPGBX4JKTHJA3WW54NCQJK7YJYBY'
 df1 = pd.read_csv(url1, sep="\t")
 df2 = pd.read_csv(url2, sep="\t")
 df3 = pd.read_csv(url3, sep="\t")
